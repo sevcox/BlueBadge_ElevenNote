@@ -68,3 +68,6 @@ C:\Users\sever\OneDrive\Desktop\ElevenFiftyProjects\BlueBadge\ElevenNote\ElevenN
 C:\Users\sever\OneDrive\Desktop\ElevenFiftyProjects\BlueBadge\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.csproj.CopyComplete
 C:\Users\sever\OneDrive\Desktop\ElevenFiftyProjects\BlueBadge\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.dll
 C:\Users\sever\OneDrive\Desktop\ElevenFiftyProjects\BlueBadge\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.pdb
+C:\Users\sever\OneDrive\Desktop\ElevenFiftyProjects\BlueBadge\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.Migrations.InitialCreate.resources
+C:\Users\sever\OneDrive\Desktop\ElevenFiftyProjects\BlueBadge\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.csproj.GenerateResource.cache
+C:\Users\sever\OneDrive\Desktop\ElevenFiftyProjects\BlueBadge\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.Migrations.FirstMigration.resources
