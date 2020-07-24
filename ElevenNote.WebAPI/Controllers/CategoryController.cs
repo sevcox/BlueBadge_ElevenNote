@@ -12,6 +12,7 @@ namespace ElevenNote.WebAPI.Controllers
 {
     public class CategoryController : ApiController
     {
+        [Authorize]
         public IHttpActionResult Get()
         {
             CategoryService categoryService = CreateCategoryService();

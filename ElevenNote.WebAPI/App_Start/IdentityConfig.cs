@@ -29,11 +29,12 @@ namespace ElevenNote.WebAPI
             // Configure validation logic for passwords
             manager.PasswordValidator = new PasswordValidator
             {
+                //only set these to false when developing so you can test easier! also you can change required length but you would need to change lines 73 and 92 in accountviewmodels and 31 and 50 in manageviewmodels
                 RequiredLength = 6,
-                RequireNonLetterOrDigit = true,
-                RequireDigit = true,
-                RequireLowercase = true,
-                RequireUppercase = true,
+                RequireNonLetterOrDigit = false,
+                RequireDigit = false,
+                RequireLowercase = false,
+                RequireUppercase = false,
             };
             var dataProtectionProvider = options.DataProtectionProvider;
             if (dataProtectionProvider != null)

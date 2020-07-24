@@ -14,7 +14,7 @@ namespace ElevenNote.Data
         [Key]
         public int NoteId { get; set; }
         public int? CategoryId { get; set; }
-        [ForeignKey(nameof(CategoryId))]
+        [ForeignKey(nameof(CategoryId))]//1 to many relationship
         public virtual Category Category { get; set; }
         [Required]
         public Guid OwnerId { get; set; }

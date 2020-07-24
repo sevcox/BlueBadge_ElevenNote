@@ -12,7 +12,7 @@ namespace ElevenNote.Data
         [Key]
         public int CategoryId { get; set; }
         [Required]
-        public Guid OwnerId { get; set; }
+        public Guid OwnerId { get; set; } // not necessary due to the foreign key relationship
         [Required]
         public string Name { get; set; }
         [Required]

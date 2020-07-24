@@ -11,7 +11,7 @@ using System.Web.Http;
 namespace ElevenNote.WebAPI.Controllers
 {
     [Authorize]
-    public class NoteController : ApiController
+    public class NoteController : ApiController //similar to the methods we hold in our repo 
     {
         public IHttpActionResult Get()
         {
